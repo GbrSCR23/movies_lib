@@ -1,9 +1,9 @@
 import { useEffect, useState } from "react";
-import { useSearchParams } from "react-router-dom";
-import MovieCard from "../components/MovieCard";
+import { useSearchParams } from "react-router-dom"; //Permite a gente pegar a string da url e utilizala 
+import MovieCard from "../components/MovieCard"; //componente do filme, que vai exibir os dados
 
-const searchURL = import.meta.env.VITE_SEARCH;
-const apiKey = import.meta.env.VITE_API_KEY;
+const searchURL = import.meta.env.VITE_SEARCH; //
+const apiKey = import.meta.env.VITE_API_KEY; //
 
 import "./MoviesGrid.css";
 
@@ -38,3 +38,5 @@ const Search = () => {
 };
 
 export default Search;
+
+

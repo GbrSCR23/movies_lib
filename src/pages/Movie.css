@@ -1,3 +1,9 @@
+/*Essa página de css serve pra duas das nossa páginas, Search e Home
+pq eles tem uma estrutura bem parecida
+*/
+
+
+
 .movie-page {
   color: #fff;
   display: grid;
@@ -5,6 +11,7 @@
   max-width: 600px;
   margin: 2rem auto;
 }
+
 
 .movie-page svg {
   font-size: 1.5rem;
@@ -48,7 +55,10 @@
   align-items: center;
   gap: 0.5rem;
 }
+/* gap pra afastar o icone da palavra */
 
 .description p {
   line-height: 1.4rem;
 }
+
+/* dando espaço ao texto da descrição  */

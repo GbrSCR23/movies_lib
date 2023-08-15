@@ -4,6 +4,7 @@
   text-align: center;
   margin: 2rem 0 1rem;
 }
+/* margin = 2 no topo pra deslocar da navbar e 0 nas laterais */
 
 .title .query-text {
   color: #f7d354;
@@ -17,6 +18,7 @@
   max-width: 1200px;
   margin: 0 auto;
 }
+/*   */
 
 .movies-container div {
   width: 30%;
@@ -29,22 +31,34 @@
   padding: 1rem;
 }
 
+/* margin-bottom pra afastar um do outro quando afastarem a linha
+flex-direction: column = um e baixo do outro
+justify = content: espaço na vertical entre os elementos
+
+
+*/
+
 .movies-container div img {
   max-width: 100%;
 }
-
+/* Aqui é muito importante, container pai, colocamos a margem de 100% se a gente depois pegar uma imagem do filme grande ela vai obedecer a max-width de 100% e vai ficar no tamanho ideal da nossa regra
+e não vai vazar  */
 .movies-container div img,
 .movies-container div p {
   margin-bottom: 1rem;
 }
+/* container filho. margin-bottom 1 rem pra afastar um elemento do utro  */
 
 .movies-container div h2 {
   margin-bottom: 1.5rem;
 }
 
+
 .movies-container div svg {
   color: #f7d354;
 }
+
+/* cor da nossa estrelinha */
 
 .movies-container div a {
   background-color: #f7d354;

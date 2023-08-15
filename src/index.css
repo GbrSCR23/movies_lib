@@ -4,10 +4,12 @@
   padding: 0;
   box-sizing: border-box;
 }
-
+/* box sizing pra nenhum elemento passada da borda do elemento pai */
 body {
   background-color: #000;
 }
+
+/* cor de fundo preto*/
 
 a {
   text-decoration: none;
@@ -15,6 +17,12 @@ a {
   transition: 0.5s;
 }
 
+/* transition de 0,5 segundo pros links  */
+
+/* text-decoration  */
+
 a:hover {
   color: #b8930c;
 }
+
+/* vai ficar amarelinho seu eu passar o mouse no elemento a  */

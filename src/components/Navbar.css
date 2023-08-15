@@ -11,7 +11,7 @@
   align-items: center;
   gap: 0.5rem;
 }
-
+/* Gap espaço entre o título e o texto */
 #navbar form {
   display: flex;
   gap: 0.5rem;
@@ -22,6 +22,7 @@
   border-radius: 4px;
   border: none;
 }
+/* border: none = tirando a borda cinza do input, pq não combina muito com nosso layout */
 
 #navbar form button {
   background-color: #f7d354;
@@ -34,3 +35,4 @@
   align-items: center;
   cursor: pointer;
 }
+ /* Nosso botão do serch */
